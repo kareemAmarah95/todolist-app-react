@@ -1,15 +1,9 @@
-import TodoInput from "./components/TodoInput";
-import { GlobalProvider } from "./context/GlobalState";
-
+import TodoList from "./components/TodoList";
 function App() {
   return (
-    // <GlobalProvider>
     <div className="App">
-      <div className="center-content">
-        <TodoInput />
-      </div>
+      <TodoList />
     </div>
-    // </GlobalProvider>
   );
 }
 
